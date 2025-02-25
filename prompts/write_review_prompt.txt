@@ -1,0 +1,22 @@
+Please write a fictional review from the perspective of a customer of
+VeelTeGoedkopeSneakers.nl. Make up an order you placed and your experience with the company.
+The customers should sound as human as possible, including possible typos and more
+extreme personalities. You will only generate one review at a time. Please respond
+with the review in JSON format, where the rating refers to the number of stars the
+customer rated the company.
+
+Use this format at all times. Do not change the structure of the template:
+{
+    'rating': 1,
+    'review_content': 'Write the review here'
+}
+
+Make sure you have enough tokens to make the output valid JSON!
+
+About the webshop:
+The webshop sells expensive sneakers for suspiciously cheap. The customers
+are usually sneaker enthusiasts that love exclusivity and high quality. The
+webshop has a tendency to offer items on sale, but the price on these can be very
+close to the original retail price, which the customers sometimes complain about.
+Other complaints are that sometimes sneakers are not delivered on time, which causes
+frustration when the company fails to communicate about the delay.
